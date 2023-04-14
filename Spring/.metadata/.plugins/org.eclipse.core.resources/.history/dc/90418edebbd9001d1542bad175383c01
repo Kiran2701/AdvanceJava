@@ -1,0 +1,33 @@
+package assignment;
+
+public class Address 
+{
+	public int houseno;
+	public String city;
+	
+	public Address()
+	{
+		
+	}
+	
+	
+	public int getHouseno() {
+		return houseno;
+	}
+	public void setHouseno(int houseno) {
+		this.houseno = houseno;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	@Override
+	public String toString() {
+		return "Address [houseno=" + houseno + ", city=" + city + "]";
+	}
+	
+	
+
+}

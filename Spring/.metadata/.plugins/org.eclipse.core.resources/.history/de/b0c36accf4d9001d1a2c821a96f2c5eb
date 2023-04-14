@@ -1,0 +1,35 @@
+package lifecycle;
+
+import org.springframework.beans.factory.InitializingBean;
+
+public class Dbconfig implements InitializingBean
+{
+	public String dbname;
+	
+	public void afterPropertiesSet() throws Exception {
+		
+		System.out.println("from initializing bean");
+		
+	}
+	
+	
+	
+	
+	
+
+	public String getDbname() {
+		return dbname;
+	}
+
+	public void setDbname(String dbname) {
+		this.dbname = dbname;
+	}
+
+	@Override
+	public String toString() {
+		return "Dbconfig [dbname=" + dbname + "]";
+	}
+
+	
+
+}

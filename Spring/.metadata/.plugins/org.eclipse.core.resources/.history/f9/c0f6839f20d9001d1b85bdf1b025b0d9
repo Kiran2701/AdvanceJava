@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee" class="spring.Employee.Employee">
+		<constructor-arg value="10" />
+		<constructor-arg value="kiran" />
+		<constructor-arg value="IT" />
+		<constructor-arg value="25000" />     <!-- value is for String-->
+	    <constructor-arg ref="Department" /> 
+
+</bean>
+
+     <bean id="Department" class="spring.Employee.Department">
+		<constructor-arg value="11" index="0"/>
+		<constructor-arg  value="Science" index="1" />
+		   
+
+   
+	     
+     </bean>
+
+
+
+
+</beans>

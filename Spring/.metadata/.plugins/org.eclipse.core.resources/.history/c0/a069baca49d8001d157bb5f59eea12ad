@@ -1,0 +1,10 @@
+package com.springassign;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class EmployeeTest
+{
+	ApplicationContext context=new ClassPathXmlApplicationContext("Beans.xml");
+
+}

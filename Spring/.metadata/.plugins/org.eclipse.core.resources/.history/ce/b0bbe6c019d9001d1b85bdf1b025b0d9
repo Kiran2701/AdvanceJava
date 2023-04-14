@@ -1,0 +1,30 @@
+package spring.Employee;
+
+public class Department 
+{
+	public int Departmentid;
+	
+	
+	public String Departmentname;
+	
+	public int getDepartmentid() {
+		return Departmentid;
+	}
+	public void setDepartmentid(int departmentid) {
+		Departmentid = departmentid;
+	}
+	public String getDepartmentname() {
+		return Departmentname;
+	}
+	public void setDepartmentname(String departmentname) {
+		Departmentname = departmentname;
+	}
+	
+	public Department(int departmentid, String departmentname) {
+		super();
+		Departmentid = departmentid;
+		Departmentname = departmentname;
+	}
+	
+
+}

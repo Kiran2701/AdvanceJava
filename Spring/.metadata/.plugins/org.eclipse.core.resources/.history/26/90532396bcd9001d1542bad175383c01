@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+  <bean id="address" class="assignment.Address">
+	  <property name="houseno" value="101"/>
+	  <property name="city" value="pune"/>
+  
+  </bean>
+	  <bean id="college" class="assignment.College">
+	  <property name="name" value="AVCOE"/>
+	  <property name="location" value="Sangmaner"/>
+
+  </bean>
+
+
+   <bean id="kiran" class="assignment.Student">
+    <property name="id" value="1"/>
+    <property name="name" value="kiran"/>
+    <property name="city" value="pune"/>
+    <constructor-arg ref="address" />
+    <constructor-arg ref="college" />
+
+</bean>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>

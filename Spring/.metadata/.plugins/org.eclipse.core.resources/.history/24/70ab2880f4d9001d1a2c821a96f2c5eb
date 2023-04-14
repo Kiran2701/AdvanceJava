@@ -1,0 +1,20 @@
+package lifecycle;
+
+public class Dbconfig 
+{
+	public String dbname;
+
+	public String getDbname() {
+		return dbname;
+	}
+
+	public void setDbname(String dbname) {
+		this.dbname = dbname;
+	}
+
+	@Override
+	public String toString() {
+		return "Dbconfig [dbname=" + dbname + "]";
+	}
+
+}

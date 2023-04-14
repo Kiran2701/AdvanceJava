@@ -1,0 +1,15 @@
+package lifecycle;
+
+import org.springframework.context.ApplicationContext;
+
+public class DbconfigTest
+{
+	public static void main(String[] args) 
+	{
+		
+		ApplicationContext context=ClassPathXmlApplicationContext("");
+		
+		
+	}
+
+}

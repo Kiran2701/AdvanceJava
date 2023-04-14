@@ -1,0 +1,9 @@
+package com.springbtfirst;
+
+public class Adress
+{
+	public int houseno;
+	public String street;
+	public String city;
+
+}

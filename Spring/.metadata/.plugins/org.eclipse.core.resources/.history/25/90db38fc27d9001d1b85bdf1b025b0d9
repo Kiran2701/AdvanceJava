@@ -1,0 +1,13 @@
+package spring.Employee;
+
+public class Employee 
+{
+	 
+	 public int id;
+	 public String name;
+	 public int salary;
+	 public Department department;
+	 
+	
+
+}
